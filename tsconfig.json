@@ -23,6 +23,9 @@
       "dom"
     ],
     "paths": {
+      "shared-library": [
+        "dist/shared-library"
+      ],
       "shared-libray": [
         "dist/shared-libray"
       ],

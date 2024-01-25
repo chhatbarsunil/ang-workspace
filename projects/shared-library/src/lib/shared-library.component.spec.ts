@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharedLibrayComponent } from './shared-libray.component';
+import { SharedLibraryComponent } from './shared-library.component';
 
-describe('SharedLibrayComponent', () => {
-  let component: SharedLibrayComponent;
-  let fixture: ComponentFixture<SharedLibrayComponent>;
+describe('SharedLibraryComponent', () => {
+  let component: SharedLibraryComponent;
+  let fixture: ComponentFixture<SharedLibraryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SharedLibrayComponent ]
+      declarations: [ SharedLibraryComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SharedLibrayComponent);
+    fixture = TestBed.createComponent(SharedLibraryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

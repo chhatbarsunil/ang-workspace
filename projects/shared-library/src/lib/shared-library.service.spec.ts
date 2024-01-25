@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SharedLibrayService } from './shared-libray.service';
+import { SharedLibraryService } from './shared-library.service';
 
-describe('SharedLibrayService', () => {
-  let service: SharedLibrayService;
+describe('SharedLibraryService', () => {
+  let service: SharedLibraryService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(SharedLibrayService);
+    service = TestBed.inject(SharedLibraryService);
   });
 
   it('should be created', () => {
