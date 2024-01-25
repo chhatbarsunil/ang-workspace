@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:admin":"ng serve --project admin-application --port 50001 --open",
+    "start:shared":"ng serve --project shared-application --port 50002 --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
