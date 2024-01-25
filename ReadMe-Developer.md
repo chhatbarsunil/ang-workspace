@@ -7,3 +7,9 @@ https://kgotgit.medium.com/monorepo-pattern-setting-up-angular-workspace-for-mul
 ## Generate Application
 ng g application beehive-RGB --routing --style=scss
 
+## Library
+  ng generate library tools
+  ng generate component my-component --style=scss --project=tools
+  ng generate service tool --project=tools
+  Link: https://octoperf.com/blog/2019/08/22/kraken-angular-workspace-multi-application-project/#create-a-shared-service
+
